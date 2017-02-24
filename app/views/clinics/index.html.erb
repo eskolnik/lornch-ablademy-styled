@@ -3,7 +3,7 @@
 <ul>
   <% @clinics.each do |clinic| %>
     <li>
-      <a href="/clinics/<%= clinic.id %>"><%= clinic.name %> </a> <%= clinic.speaker %>
+      <%= link_to clinic.name, clinic_path(clinic) %>, <%= clinic.speaker %>
     </li>
   <% end %>
 </ul>

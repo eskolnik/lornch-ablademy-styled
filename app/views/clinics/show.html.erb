@@ -1,11 +1,11 @@
-<h1><%= @clinic.name %></h1>
-<h2><%= @clinic.speaker %></h2>
-<h3><%= @clinic.description %></h3>
+<h1>Clinic: <%= @clinic.name %></h1>
+<h2>Speaker: <%= @clinic.speaker %></h2>
+<h2>Description: <%= @clinic.description %></h2>
 <h3>Comments:</h3>
 <ul>
   <% @comments.each do |comment| %>
     <li>
-      <%= comment.asker  %> says <%= comment.body %>
+      <strong><%= comment.asker  %></strong>: <%= comment.body %>
     </li>
   <% end %>
 </ul>
