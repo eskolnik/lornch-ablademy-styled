@@ -46,7 +46,3 @@ Create the migrations to build a schema, and models to represent the following d
 As we get more comfortable, you should also feel comfortable using TDD to make your tables and models, and testing your application with `pry` and seed data.
 
 * Although you have been introduced to the power of ActiveRecord, you should still have familiarity with SQL queries.
-
-* After this clinic write a seed file in SQL and pipe it in with `$psql database_name < seeds.sql`. Check things out in `pry` and make sure the data persisted and with the expected relationships.
-
-* Make a good ol' SQL query to find all the clinics that the first student has attended, and test your data via `$psql database_name < query.sql`.
