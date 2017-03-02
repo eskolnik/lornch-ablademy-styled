@@ -13,3 +13,8 @@
  *= require_tree .
  *= require_self
  */
+
+body {
+  background-color: #F7E4BE;
+  background-image: url(http://www.resortcollection.com/wp-content/themes/resortcollection/property-images/summit/summit-beach-resort-panama-city-beach-fl-beach-01.jpg);
+}

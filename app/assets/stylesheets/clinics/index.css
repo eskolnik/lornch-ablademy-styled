@@ -1,0 +1,21 @@
+.clinic-header {
+  font-family: sans-serif;
+  color: white;
+  text-align: center;
+}
+
+.clinic-link {
+  list-style: none;
+  border: 2px solid #73626E;
+  margin: 5px;
+  padding: 2px;
+  border-radius: 5px;
+  text-align: center;
+  background-color: lightblue;
+  color: #73626E;
+}
+
+a {
+  color: #73626E;
+  text-decoration: none;
+}
